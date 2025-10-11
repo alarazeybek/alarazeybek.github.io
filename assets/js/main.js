@@ -61,14 +61,6 @@ sr.reveal('.featured-image',{delay: 300})
 /* -- PROJECT BOX -- */
 sr.reveal('.project-box',{interval: 200})
 
-document.querySelectorAll('.project-box').forEach(box => {
-  box.addEventListener('mouseenter', () => {
-    const hoverText = box.getAttribute('data-hover-text');
-    const hoverTextContainer = box.querySelector('.hover-text');
-    hoverTextContainer.innerHTML = hoverText;
-  });
-});
-
 /* -- HEADINGS -- */
 sr.reveal('.top-header',{})
 

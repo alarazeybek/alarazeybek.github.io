@@ -448,6 +448,10 @@ h3{
     align-items: center;
     flex-direction: column;
     margin: auto;
+    transition: opacity 0.4s;
+}
+.project-box:hover .default-text {
+    opacity: 0;
 }
 .project-box .default-text label {
     font-size: 16px;
