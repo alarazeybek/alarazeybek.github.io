@@ -1,2 +1,1 @@
-# alarazeybek.github.io
-Personal Website
+# www.alarazeybek.com
